@@ -42,6 +42,7 @@ export const experiencesData = [
       "I graduated after 4 years of studying. I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
     date: "2018",
+    href: "https://en.uit.edu.vn/",
   },
   {
     title: "Frontend Developer - Mobile & Web",
@@ -50,6 +51,7 @@ export const experiencesData = [
       "In charge of software development, deployment and application for Customer relationship management system.",
     icon: React.createElement(FaAngular),
     date: "Oct 2020 - Jun 2021",
+    href: "https://watacorp.com/",
   },
   {
     title: "Frontend Web Developer",
@@ -58,6 +60,7 @@ export const experiencesData = [
       "Front-end of outsourcing projects for England. Maintained a bad project into a stable project go-live for 6 months.",
     icon: React.createElement(FaVuejs),
     date: "Jun 2021 - Feb 2022",
+    href: "https://hdwebsoft.com/",
   },
   {
     title: "Full Stack Developer",
@@ -66,6 +69,7 @@ export const experiencesData = [
       "I am a Full-stack developer for various projects. Have a good mindset about E-commerce, designed the system/ databaseI",
     icon: React.createElement(CgWorkAlt),
     date: "Mar 2022 - Sep 2023",
+    href: "https://www.vklink.vn/",
   },
   {
     title: "Software Engineer",
@@ -74,6 +78,7 @@ export const experiencesData = [
       "Working for banking project and environmental project. Having experience in building zero to hero projects and maintaining projects to stable.",
     icon: React.createElement(FaVuejs),
     date: "Sep 2023 - Aug 2024",
+    href: "https://techvsi.com/",
   },
   {
     title: "Lead Frontend Developer",
@@ -82,6 +87,7 @@ export const experiencesData = [
       "Working as a lead front-end developer for a banking project and crm project. Experience in training and leading a team with 3-5 members.",
     icon: React.createElement(FaReact),
     date: "Aug 2024 - Present",
+    href: "https://wearesection.com/",
   },
 ] as const;
 
@@ -92,6 +98,7 @@ export const projectsData = [
       "A web app allows end-users to fill out forms for loans including Car Loan, Home Loan and Reno Loans. I had a business trip in Singapore to train about the flow of the project for 2 months. Connecting between clients in Singapore and developers in Vietnam.",
     tags: ["React", "Redux", "Vue", "Vuex"],
     imageUrl: OcbcImage,
+    href: "https://www.ocbc.com/",
   },
   {
     title: "Bandai NamCo",
@@ -99,6 +106,7 @@ export const projectsData = [
       "Bandai Namco exists to share dreams, fun and inspiration with people around the world. Connecting people and societies in the enjoyment of uniquely entertaining products and services, we’re working to create a brighter future for everyone.",
     tags: ["Nextjs", "Material UI", "Contentful"],
     imageUrl: BandaiNamcoImage,
+    href: "https://www.bandainamcoent.asia/",
   },
   {
     title: "GoNetZero",
@@ -106,6 +114,7 @@ export const projectsData = [
       "Build a CMS system. “GoNetZero” is designed to solve the demand and supply sides of decarbonization, as well as energy asset management.",
     tags: ["Nextjs", "Material UI", "Umbraco"],
     imageUrl: GoNetZeroImage,
+    href: "https://www.gonetzero.ai/",
   },
   {
     title: "Pickafund",
@@ -114,6 +123,7 @@ export const projectsData = [
     2, RESTfull API.`,
     tags: ["React", "Material UI", "PostgreSQL", "Nodejs"],
     imageUrl: PickafundImage,
+    href: "https://www.pickafund.com/",
   },
 ] as const;
 
