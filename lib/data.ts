@@ -1,10 +1,11 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaVuejs, FaAngular } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import BandaiNamcoImage from "@/public/bandainamco.jpg";
+import OcbcImage from "@/public/ocbc.jpg";
+import GoNetZeroImage from "@/public/gonetzero.png";
+import PickafundImage from "@/public/pickafund.png";
 
 export const links = [
   {
@@ -35,52 +36,84 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Engineering",
+    location: "UIT | Vietnam",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 4 years of studying. I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2018",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Frontend Developer - Mobile & Web",
+    location: "WATA | Vietnam",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "In charge of software development, deployment and application for Customer relationship management system.",
+    icon: React.createElement(FaAngular),
+    date: "Oct 2020 - Jun 2021",
+  },
+  {
+    title: "Frontend Web Developer",
+    location: "HDWEBSOFT Software Development | Frontend Web Developer",
+    description:
+      "Front-end of outsourcing projects for England. Maintained a bad project into a stable project go-live for 6 months.",
+    icon: React.createElement(FaVuejs),
+    date: "Jun 2021 - Feb 2022",
+  },
+  {
+    title: "Full Stack Developer",
+    location: "VK Link | Vietnam",
+    description:
+      "I am a Full-stack developer for various projects. Have a good mindset about E-commerce, designed the system/ databaseI",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Mar 2022 - Sep 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Engineer",
+    location: "TechVSI | Vietnam",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Working for banking project and environmental project. Having experience in building zero to hero projects and maintaining projects to stable.",
+    icon: React.createElement(FaVuejs),
+    date: "Sep 2023 - Aug 2024",
+  },
+  {
+    title: "Lead Frontend Developer",
+    location: "Section | Singapore",
+    description:
+      "Working as a lead front-end developer for a banking project and crm project. Experience in training and leading a team with 3-5 members.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Aug 2024 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "OCBC Bank",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A web app allows end-users to fill out forms for loans including Car Loan, Home Loan and Reno Loans. I had a business trip in Singapore to train about the flow of the project for 2 months. Connecting between clients in Singapore and developers in Vietnam.",
+    tags: ["React", "Redux", "Vue", "Vuex"],
+    imageUrl: OcbcImage,
   },
   {
-    title: "rmtDev",
+    title: "Bandai NamCo",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Bandai Namco exists to share dreams, fun and inspiration with people around the world. Connecting people and societies in the enjoyment of uniquely entertaining products and services, we’re working to create a brighter future for everyone.",
+    tags: ["Nextjs", "Material UI", "Contentful"],
+    imageUrl: BandaiNamcoImage,
   },
   {
-    title: "Word Analytics",
+    title: "GoNetZero",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Build a CMS system. “GoNetZero” is designed to solve the demand and supply sides of decarbonization, as well as energy asset management.",
+    tags: ["Nextjs", "Material UI", "Umbraco"],
+    imageUrl: GoNetZeroImage,
+  },
+  {
+    title: "Pickafund",
+    description: `Assessing the quality of a mutual fund scheme involves a good amount of research and
+    knowledge of both equity and debt markets for the investor Building system with Vue
+    2, RESTfull API.`,
+    tags: ["React", "Material UI", "PostgreSQL", "Nodejs"],
+    imageUrl: PickafundImage,
   },
 ] as const;
 
@@ -101,7 +134,5 @@ export const skillsData = [
   "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
